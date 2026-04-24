@@ -30,18 +30,20 @@ export function SiteHeader() {
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-3 group">
-          <img
-            src={logo}
-            alt="Dhyan Mandir logo"
-            width={48}
-            height={48}
-            className="h-11 w-11 object-contain drop-shadow-[0_2px_8px_rgba(212,175,55,0.4)]"
-          />
+          <span className="grid place-items-center h-12 w-12 rounded-full bg-[oklch(0.18_0.02_60/0.55)] backdrop-blur-md border border-accent/40 shadow-gold">
+            <img
+              src={logo}
+              alt="Dhyan Mandir logo"
+              width={44}
+              height={44}
+              className="h-9 w-9 object-contain"
+            />
+          </span>
           <div className="leading-tight">
-            <div className="font-display text-lg tracking-wide text-background">
-              Dhyan <span className="text-gradient-gold">Mandir</span>
+            <div className="font-display text-xl tracking-wide text-white drop-shadow-[0_2px_6px_rgba(0,0,0,0.5)]">
+              Dhyan <span className="text-accent">Mandir</span>
             </div>
-            <div className="text-[10px] uppercase tracking-[0.25em] text-background/70">
+            <div className="text-[10px] uppercase tracking-[0.25em] text-white/80">
               Spirit · Adventure
             </div>
           </div>
