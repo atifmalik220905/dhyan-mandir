@@ -7,13 +7,13 @@ export function SiteFooter() {
     <footer className="bg-[oklch(0.18_0.02_60)] text-background/80 pt-20 pb-10 mt-24">
       <div className="container mx-auto px-6 grid gap-12 md:grid-cols-4">
         <div>
-          <div className="flex items-center gap-3 mb-4">
-            <img src={logo} alt="" width={44} height={44} className="h-11 w-11" />
+          <div className="flex items-center gap-2.5 mb-4">
+            <img src={logo} alt="" width={36} height={36} className="h-9 w-9" />
             <div>
-              <div className="font-display text-xl text-background">
+              <div className="font-display text-lg text-background leading-none mb-1">
                 Dhyan <span className="text-gradient-gold">Mandir</span>
               </div>
-              <div className="text-[10px] uppercase tracking-[0.25em] text-background/60">
+              <div className="text-[9px] uppercase tracking-[0.25em] text-background/60">
                 Spirit · Adventure
               </div>
             </div>

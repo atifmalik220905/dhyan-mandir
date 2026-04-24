@@ -24,28 +24,27 @@ export function SiteHeader() {
 
   return (
     <header
-      className={`fixed top-0 inset-x-0 z-40 transition-all duration-500 ${
-        scrolled ? "glass-dark py-3" : "py-5"
-      }`}
+      className={`fixed top-0 inset-x-0 z-40 transition-all duration-500 ${scrolled ? "glass-dark py-3" : "py-5"
+        }`}
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-3 group">
-          <span className="grid h-7 w-7 shrink-0 place-items-center rounded-full border border-accent/40 bg-card/95 shadow-elegant backdrop-blur-md transition-transform duration-300 group-hover:scale-105">
-            <span className="grid h-4 w-4 place-items-center rounded-full bg-foreground ring-1 ring-accent/70">
+          <span className="grid h-6 w-6 shrink-0 place-items-center rounded-full border border-accent/40 bg-card/95 shadow-elegant backdrop-blur-md transition-transform duration-300 group-hover:scale-105">
+            <span className="grid h-3.5 w-3.5 place-items-center rounded-full bg-foreground ring-1 ring-accent/70">
               <img
                 src={logo}
                 alt="Dhyan Mandir logo"
-                width={12}
-                height={12}
-                className="h-3 w-3 object-contain drop-shadow-[0_2px_8px_oklch(0.98_0.01_80_/_0.15)]"
+                width={10}
+                height={10}
+                className="h-2.5 w-2.5 object-contain drop-shadow-[0_2px_8px_oklch(0.98_0.01_80_/_0.15)]"
               />
             </span>
           </span>
           <div className="leading-tight">
-            <div className="font-display text-2xl tracking-wide text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.6)] sm:text-[2rem]">
+            <div className="font-display text-xl tracking-wide text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.6)] sm:text-2xl">
               Dhyan <span className="text-accent">Mandir</span>
             </div>
-            <div className="text-xs uppercase tracking-[0.32em] text-white/90 drop-shadow-[0_2px_8px_rgba(0,0,0,0.45)] sm:text-[0.82rem]">
+            <div className="text-[10px] uppercase tracking-[0.32em] text-white/90 drop-shadow-[0_2px_8px_rgba(0,0,0,0.45)] sm:text-xs">
               Spirit · Adventure
             </div>
           </div>
