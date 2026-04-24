@@ -30,14 +30,16 @@ export function SiteHeader() {
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-3 group">
-          <span className="grid place-items-center h-16 w-16 shrink-0 rounded-full bg-card/95 ring-2 ring-accent/70 shadow-gold backdrop-blur-md transition-transform duration-300 group-hover:scale-105">
-            <img
-              src={logo}
-              alt="Dhyan Mandir logo"
-              width={56}
-              height={56}
-              className="h-12 w-12 object-contain drop-shadow-[0_2px_10px_oklch(0.2_0.02_60_/_0.35)]"
-            />
+          <span className="grid h-14 w-14 shrink-0 place-items-center rounded-full border border-border/70 bg-background/92 shadow-elegant backdrop-blur-md transition-transform duration-300 group-hover:scale-105">
+            <span className="grid h-11 w-11 place-items-center rounded-full bg-card ring-1 ring-accent/55">
+              <img
+                src={logo}
+                alt="Dhyan Mandir logo"
+                width={44}
+                height={44}
+                className="h-10 w-10 object-contain drop-shadow-[0_4px_12px_oklch(0.24_0.02_60_/_0.3)]"
+              />
+            </span>
           </span>
           <div className="leading-tight">
             <div className="font-display text-2xl tracking-wide text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.6)] sm:text-[2rem]">
